@@ -22,7 +22,7 @@ await connectCloudinary();
 // Simple CORS configuration
 
 app.use(cors({
-  origin: "https://start-zeta-seven.vercel.app",
+  origin: "",
   credentials: true,
   allowedHeaders: ["Content-Type", "Authorization"]
 }));
